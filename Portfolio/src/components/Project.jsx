@@ -30,7 +30,7 @@ const Project = ({ name, description, technologies, link, image }) => {
                 {/* Card title */}
                 <Card.Title> {name} </Card.Title>
                 {/* Card text with custom font size */}
-                <Card.Text style={{ fontSize: '10px' }} className="flex-grow-1">
+                <Card.Text style={{ fontSize: '14px' }} className="flex-grow-1">
                     {description}
                 </Card.Text>
                 {/* Technologies used section */}
