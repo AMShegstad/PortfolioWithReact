@@ -1,0 +1,29 @@
+/* filepath: /C:/Users/Alex's Lenovo/bootcamp/PortfolioWithReact/Portfolio/src/components/Card.css */
+
+/* Styles for the project card component */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.project-card .card-text {
+    flex-grow: 1;
+}
+
+/* Keyframe animation for fade-in and slide-up effect */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

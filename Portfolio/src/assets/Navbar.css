@@ -1,0 +1,7 @@
+.nav-link {
+  color: var(--custom-color-chamoisee);
+}
+
+.nav-link.active {
+  color: var(--custom-color-tiffanyBlue);
+}
